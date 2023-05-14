@@ -2,7 +2,7 @@
 
 uses : laravel scout + https://jeroen-g.github.io/Explorer/ as elastic driver
 
-to start project first edit .env configurations then
+to start project first copy .env.example as .env and edit its configurations then
 ```bash
 php artisan migrate
 php artisan serve
